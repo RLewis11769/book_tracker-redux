@@ -1,5 +1,7 @@
 # Redux Book List Tracker
 
+![List](https://github.com/RLewis11769/book_tracker-redux/blob/main/project_docs/book-list.png)
+
 ## Background
 
 I did not like how Holberton taught Redux. Because we learned it "backwards", by the time I was actually able to test my output, I was two weeks into the project and wasn't sure where in the enormous codebase I had gone wrong. Instead of fixing my broken code immediately, I decided to start a new project to make sure I actually learned it. I plan on going back to the [Holberton project](https://github.com/RLewis11769/holbertonschool-web_react/tree/main/0x04-react_redux_connectors_and_providers) eventually!
@@ -32,23 +34,19 @@ About halfway through, I remembered how tedious I find CSS, so it's not amazingl
 
 Form to add a new book to the list is shown here, with some validation shown:
 
-![Form](add-form.png)
+![Form](https://github.com/RLewis11769/book_tracker-redux/blob/main/project_docs/add-form.png)
 
 If form is not filled out correctly, a notification is displayed, as seen on tablet:
 
-![Form Validation Notification](form-validation.png)
+![Form Validation Notification](https://github.com/RLewis11769/book_tracker-redux/blob/main/project_docs/form-validation.png)
 
 When a book is successfully added to the list, a modal is displayed:
 
-![Successful Add Notification](success-modal.png)
-
-An example of a list of books is shown here:
-
-![List](book-list.png)
+![Successful Add Notification](https://github.com/RLewis11769/book_tracker-redux/blob/main/project_docs/success-modal.png)
 
 An example of a search result is shown here, as seen on mobile:
 
-![Search Result](search-mobile.png)
+![Search Result](https://github.com/RLewis11769/book_tracker-redux/blob/main/project_docs/search-mobile.png)
 
 ## Tools
 
