@@ -1,0 +1,87 @@
+/* General form styling */
+
+form {
+	/* height: 60vh; */
+	width: 80%;
+	margin: 5rem auto;
+}
+
+/* Error message */
+
+Form span {
+	color: red;
+	font-size: var(--font-size-primary);
+	font-weight: bold;
+	padding: 0 1rem;
+}
+
+/* Inputs from FinalForm and handmade select */
+
+Form input, .select-container {
+	margin: 0.5rem 0;
+	width: 70%;
+}
+
+Form input:focus {
+	background-color: var(--color-dark);
+	color: var(--color-pop);
+}
+
+/* Labels */
+
+.form-label, .select-container label {
+	font-size: var(--font-size-primary);
+	display: inline-block;
+	width: 15rem;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+/* Labels from FinalForm are white, while select label also includes option names so styled below */
+.form-label {
+	background-color: var(--color-white);
+}
+
+/* Handmade select/option */
+
+.select-container {
+	position: relative;
+}
+
+.select-dropdown {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--color-white);
+}
+
+.genre-container {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	flex-direction: column;
+	background: var(--color-white);
+}
+
+.genre-option {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 1px solid var(--color-gray);
+}
+
+.genre-option img {
+	padding: 0 3rem;
+}
+
+/* Can't get focus option - not accessible :( */
+.genre-option:hover {
+	background-color: var(--color-dark);
+	color: var(--color-pop);
+}
+
+/* Submit Button */
+
+form button {
+	display: block;
+	margin: 5rem auto;
+}

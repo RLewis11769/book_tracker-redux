@@ -1,0 +1,24 @@
+/* General book nav styling */
+
+.book-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5rem 2rem;
+}
+
+/* Searchbar */
+
+.searchbar {
+	background-color: var(--color-white);
+	font-size: var(--font-size-primary);
+	border-radius: 5px;
+}
+
+.searchbar:hover, .searchbar:focus {
+	border: 2px solid var(--color-pop);
+}
+
+.fa-search {
+	padding: 1rem;
+}

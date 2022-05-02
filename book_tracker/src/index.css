@@ -1,0 +1,110 @@
+/* Variables */
+
+:root {
+	--color-primary: #16f3ff;
+	--color-white: #f0f8ff;
+	--color-dark: #081f3b;
+	--color-gray: #c5c2c2;
+	--color-pop: #ffff33;
+
+	--font-family: 'Goudy Bookletter 1911', serif;
+	--font-size-primary: 1.6rem;
+}
+
+/* Basic */
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+	height: 100vh;
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-family);
+	background-color: var(--color-primary);
+	color: var(--color-dark);
+}
+
+.App {
+	max-width: 1000px;
+	margin: auto;
+}
+
+/* Elements shared between pages */
+
+h1, a {
+	font-size: 2rem;
+	font-weight: bold;
+	color: var(--color-dark);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: var(--color-pop);
+	outline: none;
+}
+
+p, label {
+	font-size: (--font-size-primary);
+}
+
+button {
+	font-size: var(--font-size-primary);
+	background-color: var(--color-white);
+	color: var(--color-dark);
+	border: 2px solid var(--color-pop);
+	font-family: var(--font-family);
+	border-radius: 5px;
+	padding: 1rem 1.5rem;
+	cursor: pointer;
+}
+
+button:hover, button:focus {
+	background-color: var(--color-dark);
+	color: var(--color-pop);
+	outline: none;
+}
+
+button label {
+	margin-left: 1rem;
+}
+
+input {
+	background-color: var(--color-white);
+	width: 80%;
+	padding: 1rem;
+	border: none;
+	outline: none;
+	font-family: var(--font-family);
+	font-size: 1.6rem;
+}
+
+::placeholder {
+	color: var(--color-dark);
+	font-family: var(--font-family);
+}
+
+/* Footer */
+
+footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+	h1, a {
+		font-size: 2.5rem;
+	}
+}

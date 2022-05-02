@@ -1,0 +1,61 @@
+/* Entire BookList section */
+
+.booklist-display {
+	font-size: var(--font-size-primary);
+	text-align: center;
+	margin: 5rem auto;
+	display: block;
+}
+
+.booklist-display img {
+	width: 25rem;
+	display: block;
+	margin: 2rem auto;
+}
+
+/* Each Book within BookList */
+
+.book {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--color-white);
+	justify-content: space-between;
+	align-items: center;
+	width: 80%;
+	padding: 0rem 2rem;
+	margin: 0 auto;
+	border: 1px solid var(--color-gray);
+}
+
+/* Info about book */
+
+.book-info {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-left: 3rem;
+}
+
+.book p {
+	margin: 0;
+	text-align: left;
+}
+
+.book p:last-child {
+	color: var(--color-gray);
+	font-size: 1.4rem;
+}
+
+/* Genre icon on left */
+
+.genre-icon img {
+	width: 3rem;
+	height: 3rem;
+}
+
+/* Delete icon on right */
+
+.delete-icon i {
+	font-size: 2rem;
+	margin-right: 1.5rem;
+}
