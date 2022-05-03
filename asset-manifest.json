@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/book_tracker-redux/book_tracker/static/css/main.508a61c5.css",
-    "main.js": "/book_tracker-redux/book_tracker/static/js/main.9df02052.js",
-    "static/media/library.jpg": "/book_tracker-redux/book_tracker/static/media/library.e1da5361b7be05c03a43.jpg",
-    "static/media/book.gif": "/book_tracker-redux/book_tracker/static/media/book.0ba461ecabd1beca5244.gif",
-    "static/media/empty.png": "/book_tracker-redux/book_tracker/static/media/empty.37075bba443ac1f5177d.png",
-    "index.html": "/book_tracker-redux/book_tracker/index.html",
-    "main.508a61c5.css.map": "/book_tracker-redux/book_tracker/static/css/main.508a61c5.css.map",
-    "main.9df02052.js.map": "/book_tracker-redux/book_tracker/static/js/main.9df02052.js.map"
+    "main.css": "/static/css/main.508a61c5.css",
+    "main.js": "/static/js/main.6d49a361.js",
+    "static/media/library.jpg": "/static/media/library.e1da5361b7be05c03a43.jpg",
+    "static/media/book.gif": "/static/media/book.0ba461ecabd1beca5244.gif",
+    "static/media/empty.png": "/static/media/empty.37075bba443ac1f5177d.png",
+    "index.html": "/index.html",
+    "main.508a61c5.css.map": "/static/css/main.508a61c5.css.map",
+    "main.6d49a361.js.map": "/static/js/main.6d49a361.js.map"
   },
   "entrypoints": [
     "static/css/main.508a61c5.css",
-    "static/js/main.9df02052.js"
+    "static/js/main.6d49a361.js"
   ]
 }
